@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D294DE3-71FC-4370-92D8-93363E501EB7}</ProjectGuid>
+    <ProjectGuid>{57DABA2F-6F24-4FBA-BA5D-3C36DD0B2D7B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Projeto01</RootNamespace>
-    <AssemblyName>Projeto01</AssemblyName>
+    <RootNamespace>Projeto02</RootNamespace>
+    <AssemblyName>Projeto02</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controles\ClienteControle.cs" />
-    <Compile Include="Entidades\Cliente.cs" />
-    <Compile Include="Entidades\Endereco.cs" />
-    <Compile Include="Entidades\Pessoa.cs" />
+    <Compile Include="Entidades\Funcionario.cs" />
+    <Compile Include="Entidades\TipoContratacao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
