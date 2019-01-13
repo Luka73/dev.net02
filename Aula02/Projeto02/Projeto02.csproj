@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controles\FuncionarioControle.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
     <Compile Include="Entidades\TipoContratacao.cs" />
     <Compile Include="Program.cs" />
